@@ -4,8 +4,210 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vladimir Plekhanov CV</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <div class="container-body">
+    <div class="container-header">
+      <header>
+        <div class="left-header">
+          <h1>Vladimir Plekhanov</h1>
+          <h2>Frontend Developer</h2>
+        </div>
+        <div class="right-header">
+          <a class="linkedin" href="https://www.linkedin.com/in/vladimir-plekhanov/">vladimir-plekhanov</a>
+          <img src="/icons/linkedin.svg" alt="LinkedIn Icon" width="14" height="14">
+          <br>
+          <a href="https://discord.com/users/970993769254113290">vladimir_plekhanov#2015</a>
+          <img src="/icons/discord.svg" alt="Discord Icon" width="14" height="14">
+          <br>
+          <a href="mailto:vladimir_plekhanov@yahoo.com">vladimir_plekhanov@yahoo.com</a>
+          <img src="/icons/email.svg" alt="Email Icon" width="14" height="14">
+        </div>
+      </header>
+    </div>
+    <div class="three-column">
+      
+      <div class="left-column">
+        <div class="summary-header">
+          <p>summary</p>
+        </div>
+        <div class="summary-point">
+          <p>Hands-on experience (about 3 years) in the implementation of project tasks</p>
+        </div>
+        <div class="summary-point">
+          <p>Enjoy working as a member of a result-driven team</p>
+        </div>
+        <div class="summary-point">
+          <p>Good experience managing people and processes</p>
+        </div>
+        <div class="summary-point">
+          <p>Participate in Resource Development courses as a Trainer</p>
+        </div>
+        <div class="summary-point">
+          <p>Prioritize activities and provide accurate engineering estimates</p>
+        </div>
+        <div class="summary-point">
+          <p>Strong analytical, problem-solving, and communication skills</p>
+        </div>
+        <div class="empty-point" id="first-empty-point">
+        </div>
+        <div class="empty-point">
+        </div>
+        <div class="empty-point">
+        </div>
+        <div class="empty-point">
+        </div>
+        <div class="empty-point">
+        </div>
+        <div class="empty-point">
+        </div>
+        <div class="empty-point">
+        </div>
+        <div class="empty-point">
+        </div>
+        <div class="empty-point">
+        </div>
+        <div class="empty-point">
+        </div>
+      </div>
+      
+      <div class="central-column">
+        <img src="/icons/avatar.gif" alt="Avatar" height="628">
+      </div>
+
+      <div class="right-column">
+        <div class="summary-header">
+          <p>technical skills</p>
+        </div>
+        <ul class="skill">
+          <li>
+            <p>JavaScript</p>
+            <div class="level-skill-block">
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="empty-block"></div>
+              <div class="empty-block"></div>
+            </div>
+          </li>
+          <li>
+            <p>Java</p>
+            <div class="level-skill-block">
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+            </div>
+          </li>
+          <li>
+            <p>CSS</p>
+            <div class="level-skill-block">
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+            </div>
+          </li>
+          <li>
+            <p>HTML</p>
+            <div class="level-skill-block">
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+            </div>
+          </li>
+          <li>
+            <p>Git</p>
+            <div class="level-skill-block">
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+            </div>
+          </li>
+          <li>
+            <p>Figma</p>
+            <div class="level-skill-block" id="last-level-skill-block">
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="filled-block"></div>
+              <div class="empty-block"></div>
+            </div>
+          </li>
+        </ul>
+        <div class="education">
+          <p>Education: Samara State Technical University</p>
+          <p>Languages: B2 Professional working proficiency</p>
+        </div>
+        <div class="code-example">
+          <p>Code example</p>
+          <p>LeetCode - Given a roman numeral, convert it to an integer</p>
+            <pre>
+              <code>
+public int romanToInt(String s) {
+  char[] arrayFirst = s.toCharArray();
+  int[] arraySecond = new int[arrayFirst.length];
+  int result = 0;
+
+  for (int i = 0; i < arrayFirst.length; i++) {
+    switch (arrayFirst[i]) {
+      case 'I':
+        arraySecond[i] = 1;
+        break;
+      case 'V':
+        arraySecond[i] = 5;
+        break;
+      case 'X':
+        arraySecond[i] = 10;
+        break;
+      case 'L':
+        arraySecond[i] = 50;
+        break;
+      case 'C':
+        arraySecond[i] = 100;
+        break;
+      case 'D':
+        arraySecond[i] = 500;
+        break;
+      case 'M':
+        arraySecond[i] = 1000;
+        break;
+    }
+  }
+
+  for (int i = 0; i < arraySecond.length - 1; i++) {
+    if (arraySecond[i] >= arraySecond[i + 1]) {
+      result = result + arraySecond[i];
+    } else {
+      result = result - arraySecond[i];
+    }
+  }
+  result += arraySecond[arraySecond.length - 1];
+  return result;
+}
+              </code>
+            </pre>
+          </div>
+      </div>
+    </div>
+    <footer>
+      <a class="my-github" href="https://github.com/VladimirPlekhanov">
+        <img class="github-icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png?" alt="Github Icon" width="26" height="26">
+        <p>GitHub</p>
+      </a>
+      <p>2022</p>
+      <a href="https://rs.school/js/">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
