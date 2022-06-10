@@ -2,7 +2,7 @@
     --dark-gray-color: #505050;
 }
 html {
-    background: url(/icons/background.jpg);
+    background: url(../icons/background.jpg);
     background-repeat:no-repeat;
     background-position:center center;
     background-size: cover
